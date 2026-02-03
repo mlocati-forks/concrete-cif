@@ -4267,6 +4267,7 @@
                         <xs:element name="cParentID" type="ccm-page" minOccurs="0" maxOccurs="1" />
                         <xs:element name="cThis" type="boolean-like" minOccurs="0" maxOccurs="1" />
                         <xs:element name="cThisParent" type="boolean-like" minOccurs="0" maxOccurs="1" />
+                        <xs:element name="excludeCanonicalPaging" type="boolean-like" minOccurs="0" maxOccurs="1" />
                         <xs:element name="useButtonForLink" type="boolean-like" minOccurs="0" maxOccurs="1" />
                         <xs:element name="buttonLinkText" type="xs:string" minOccurs="0" maxOccurs="1" />
                         <xs:element name="pageListTitle" type="xs:string" minOccurs="0" maxOccurs="1" />
